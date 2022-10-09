@@ -1,0 +1,560 @@
+.main
+{
+    /* background-color: aqua; */
+    height: 84%;
+
+    display: flex;
+    /* margin-bottom: 60px; */
+}
+.left
+{
+    width: 52%;
+    margin-top: 38px;
+    padding-left: 10.52vw;
+}
+.new
+{
+    display: none;
+}
+.right
+{
+    margin-top: 30px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+.header
+{
+    width: 35.04vw;
+    min-width: 234px;
+}
+.header h1
+{
+    font-size: 2.99vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #636466;
+    
+    /* background-color: aqua; */
+}
+.content
+{
+    width: 35.0vw;
+}
+.content p
+{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+    text-align: justify;
+    text-justify: inter-word;
+  
+}
+.getQuote
+{
+    margin-top: 23px;
+    width: 9.77vw;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    height: 6.313vh;
+    font-size: 18px;
+    min-height: 31px;
+    min-width: 93px;
+}
+.trip
+{
+    /* width:8.85vw; */
+    margin-top: 29px;
+}
+.input
+{
+    width:410px;
+    height: 48.2vh;
+    position: absolute;
+    top: 350px;
+    left: 54.071vw;
+    min-width: 343px;
+    background-color: white;
+}
+.heek
+{
+    
+    position: relative;
+    
+}
+.rightarrow
+{
+    background-color: #636466;
+    z-index: 10000000000000000;
+    height: 100px;
+    width: 100px;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+}
+.Mainss
+{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+
+    padding: 0 10px 0 20px;
+}
+
+.inputs
+{
+    width: 300px;
+    /* height: 0px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.headd
+{
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.headd h1{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.inputs input
+{
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.input1
+{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #DADADA;
+    padding-bottom: 20px;
+}
+.RightArrow
+{
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+}
+
+.input2
+{
+    background-color: transparent;
+    border: 0px none;
+    outline: 0;
+    border-width: 0 0 0px;
+    border-color: #DADADA;
+}
+
+@media only screen and (max-width: 1244px) {
+
+    .header
+    {
+        margin-top: 70px;
+    }
+    .right
+    {
+        margin-top: 70px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 898px) {
+    .getQuote
+    {
+        width: 110px;
+        height: 40px;
+    }
+    .left
+    {
+        display: none;
+    }
+    .right
+    {
+        display: none;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        height: 153vh;
+        background-color: #ECEAE7;
+    }
+    .new
+    {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+        /* margin-left: 150px; */
+    }
+    .input
+    {
+        /* width:26.71vw; */
+        height: 48.2vh;
+        top: 650px;
+        left: 24%;
+        /* right: 25%; */
+        
+        min-width: 343px;
+        position: absolute;
+        background-color: white;
+    }
+    .abc
+    {
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+   
+    /* .header
+    {
+        position: absolute;
+       margin-left: 30px;
+    margin-top: 100px;
+   } */
+   .content p
+   {
+    width: 300px;
+   }
+  }
+@media only screen and (max-width: 790px) {
+.input{
+    left: 20%;
+}  
+}
+  
+@media only screen and (max-width: 664px) {
+    .main{
+        height: 115vh;
+    }
+    .abc
+    {
+        margin-top: -110px;
+        margin-left: 30px;
+    }
+    .getQuote
+    {
+        width: 110px;
+    }
+    .header h1
+    {
+        font-size: 20px;
+    }
+    .input{
+        left: 20%;
+        width: 323px;
+        height: 308px;
+    }
+}
+@media only screen and (max-width: 544px) {
+
+    .abc
+    {
+        margin-top: -130px;
+        margin-left: 15px;
+    }
+    .trip{
+        width: 76.24px;
+        height: 22.02px;
+    }
+    .input
+    {
+        left: 17%;
+        top: 620px;
+    }
+    .main{
+        height: 112vh;
+    }
+}
+
+
+@media only screen and (max-width: 474px) {
+    .input
+    {
+        left: 14%;
+        top: 590px;
+    }
+    .main{
+        height: 106vh;
+    }
+
+}
+@media only screen and (max-width: 440px) {
+
+    .header
+    {
+        width: 230px;
+        height: 90px;
+    }
+    .abc
+    {
+        /* margin-top: -140px; */
+        margin-left: 15px;
+    }
+    .content p
+    {
+     width: 260px;
+     font-size: 10px;
+     /* height: 46px; */
+    }
+    .getQuote
+    {
+        width: 93px;
+        height: 31px;
+        font-size: 11.6px;
+    }
+    .trip{
+        width: 76.24px;
+        height: 22.02px;
+    }
+    .input
+    {
+        left: 10%;
+        top: 560px;
+        /* width:22.330729166666668vw ; */
+        min-width: 200px;
+    }
+   
+}
+@media only screen and (max-width: 419px) {
+    .input
+    {
+        left: 70px;
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .input
+    {
+        left: 50px;
+        width: 250px;
+        top: 520px;
+    }
+}
+@media only screen and (max-width: 336px) {
+    .input
+    {
+        left: 38px;
+        top: 480px;
+
+    }
+    .main{
+        height: 90vh;
+        background-color: #636466;
+    }
+}
+
+@media only screen and (max-width: 1244px) {
+    .header
+    {
+        margin-top: 70px;
+    }
+    .right
+    {
+        margin-top: 70px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 898px) {
+    .getQuote
+    {
+        width: 110px;
+        height: 40px;
+    }
+    .left
+    {
+        display: none;
+    }
+    .right
+    {
+        display: none;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        height: 130vh;
+        background-color: #ECEAE7;
+    }
+    .new
+    {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+        /* margin-left: 150px; */
+    }
+    .input
+    {
+        /* width:26.71vw; */
+        height: 48.2vh;
+        top: 650px;
+        left: 24%;
+        /* right: 25%; */
+        
+        min-width: 343px;
+        position: absolute;
+        background-color: white;
+    }
+    .abc
+    {
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+   
+    /* .header
+    {
+        position: absolute;
+       margin-left: 30px;
+    margin-top: 100px;
+   } */
+   .content p
+   {
+    width: 300px;
+   }
+  }
+@media only screen and (max-width: 790px) {
+.input{
+    left: 20%;
+}  
+}
+  
+@media only screen and (max-width: 664px) {
+    .main{
+        height: 122vh;
+    }
+    .abc
+    {
+        margin-top: -110px;
+        margin-left: 30px;
+    }
+    .getQuote
+    {
+        width: 110px;
+    }
+    .header h1
+    {
+        font-size: 20px;
+    }
+    .input{
+        left: 20%;
+        width: 343px;
+        height: 308px;
+    }
+    .new
+    {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 544px) {
+
+    .abc
+    {
+        margin-top: -130px;
+        margin-left: 15px;
+    }
+    .trip{
+        width: 76.24px;
+        height: 22.02px;
+        margin-top: 12px;
+    }
+    .input
+    {
+        left: 17%;
+        top: 620px;
+    }
+    .main{
+        height: 117vh;
+    }
+}
+
+
+@media only screen and (max-width: 474px) {
+    .input
+    {
+        left: 14%;
+        top: 590px;
+    }
+    .main{
+        height: 112vh;
+    }
+
+}
+@media only screen and (max-width: 440px) {
+
+    .header
+    {
+        width: 230px;
+        height: 90px;
+    }
+    .abc
+    {
+        /* margin-top: -140px; */
+        margin-left: 15px;
+    }
+    .content p
+    {
+     width: 260px;
+     font-size: 10px;
+     /* height: 46px; */
+    }
+    .getQuote
+    {
+        width: 93px;
+        height: 31px;
+        font-size: 11.6px;
+    }
+    .trip{
+        width: 76.24px;
+        height: 22.02px;
+    }
+    .input
+    {
+        left: 10%;
+        top: 560px;
+        /* width:22.330729166666668vw ; */
+        min-width: 200px;
+    }
+   
+}
+@media only screen and (max-width: 419px) {
+    .input
+    {
+        left: 44px;
+        top: 540px;
+        width: 300px;
+    }
+    .main
+    {
+        height: 107vh;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .input
+    {
+        left: 50px;
+        width: 250px;
+        top: 490px;
+    }
+    .main{
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 336px) {
+    .input
+    {
+        left: 40px;
+        top: 485px;
+
+    }
+    .main{
+    }
+}

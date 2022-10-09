@@ -1,0 +1,287 @@
+.Main
+{
+    background-color: black;
+    width: 100%;
+}
+
+.Top
+{
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #656565; */
+}
+.header
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.header h1
+{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.p
+{
+    /* width: 100vw; */
+}
+.p p
+{
+    font-family: 'Poppins', sans-serif;
+    width: 55.244299674267104vw;
+    font-size: 16px;
+    text-align: center;
+
+    font-weight: 400;
+    margin-bottom: 51px;
+    color: #656565;
+} 
+.button
+{
+    margin-bottom: 60px;
+    border-radius: 104px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 52px;
+    width: 165px;
+    background-color: #3845B8;
+    border: 1px solid #3845B8;
+    color: white;
+}
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one 
+{
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    width: 22.93159609120521vw;
+    margin-left: 5.01628664495114vw;
+}
+.one img
+{
+    height: 70px;
+    width: 162px;
+    margin-bottom: 40px;
+}
+.one p 
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.two
+{
+    display: flex;
+    margin-left: 9.250814332247558vw;
+    margin-right: 8.469055374592834vw;
+}
+.subOne
+{
+    display: flex;
+    flex-direction: column;
+    width: 12.50814332247557vw;
+    row-gap: 24px;
+    /* margin-right: 3.9087947882736156vw; */
+}
+.subTwo
+{
+    display: flex;
+    flex-direction: column;
+    width: 12.182410423452769vw;
+    row-gap: 24px;
+}
+.subOne h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.subThreeOne h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.subTwo h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.subOne p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.subThreeOne p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.subTwo p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.three
+{
+    /* margin-left: 8.469055374592834vw; */
+}
+.subThreeOne
+{
+    display: none;
+}
+.subThreeTwo
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.subThreeTwo h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.subThreeTwo p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 307px;
+    color: #FFFFFF;
+}
+.subThreeTwo span
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.subThreeTwo img
+{
+    width: 168px;
+    height: 40px;
+}
+.bottom2
+{
+    margin: 15px 0;
+}
+.bottom2 p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.bottom2 span
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 1092px) {
+.subTwo
+{
+    min-width: 160px;
+}
+.two
+{
+    justify-content: space-between;
+    width: 50%;
+}
+.subOne
+{
+    width: 110px;
+}
+.three
+{
+    margin-left: 5.0552083333333335vw;
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 647px) {
+.subThreeTwo img
+{
+    /* margin-left: 26.2vw; */
+}
+.one
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 90%;
+
+}
+.header h1
+{
+    font-size: 20px
+}
+.p p
+{
+    font-size: 10px;
+}
+.one p
+{
+    width: 70%;
+}
+
+.two
+{
+    justify-content: space-between;
+    width: 90%;
+}
+.three
+{
+    margin-left: 9.0552083333333335vw;
+}
+
+}
+
+@media only screen and (max-width: 408px) {
+    .one
+    {
+        margin-bottom: 20px;
+    }
+
+    .two
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,167 @@
+.nav
+{
+    height: 125px;
+    background-color: #ECEAE7;
+    display: flex;
+}
+
+.nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.img1
+{
+    width: 162px;
+    height: 70px;
+    margin-left: 10.6vw;
+}
+
+.items
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3.43vw;
+    gap: 1.9vw;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    flex: 1;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    /* background-color: aqua; */
+}
+
+.nav button
+{
+    margin-right: 5.9vw;
+    height: 40px;
+    width: 137px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important ;
+    /* flex: 1; */
+    min-width: 90px;
+}
+.items2
+{
+    display: none;
+}
+.hamburger
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1244px) {
+    
+.img1
+{
+    margin-left: 80px;
+}
+.items
+{ gap: 15px;
+    /* margin-right: 60px; */
+}
+.nav button
+{
+    margin-right: 20px;
+}
+}
+
+@media only screen and (max-width: 1097px) {
+    .img1
+    {
+        margin-left: 60px;
+    }
+    .items
+    { 
+        margin-right: 10px;
+    }
+    .nav button
+    {
+        width: 120px;
+    }
+
+}
+@media only screen and (max-width: 1028px) {
+    
+    .items
+    { 
+        font-size: 16px;
+    }
+    .nav button
+    {
+        width: 100px;
+    }
+
+}
+@media only screen and (max-width: 919px) {
+    
+    
+    .img1
+    {
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 898px) {
+    .nav
+    {
+        background-color: #D9D9D9;
+    }
+   .items2 
+   {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    padding:0px 10px;
+    }
+    .items2 li
+    {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    /* border: 1px solid black; */
+
+   }
+   .items2
+   {
+    background-color: #D9D9D9;
+
+   }
+   .items li{
+    display: none;
+
+   }
+   .nav button
+   {
+       display: none;
+   }
+   .hamburger
+    {
+    display: block;
+    width :18.26px;
+        height: 12px;
+        margin-right: 27.98px;
+    }
+    .img1
+    {
+        width :102px;
+        height: 52px;
+        margin-left: 20px;
+    }
+    .nav
+    {
+        height: 90px;
+    }
+
+  }
