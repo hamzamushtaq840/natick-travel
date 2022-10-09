@@ -7,9 +7,9 @@
 }
 .main
 {
-    /* display: flex; */
-    /* align-items: center; */
     background-color: aquamarine;
+    background: url('./../Assets/callnow.png')no-repeat center center fixed; 
+    background-size: cover;
     height: 260px;
     display: flex;
     align-items: center;

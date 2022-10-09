@@ -5,6 +5,7 @@ import background2 from './../Assets/group3.png'
 import arrow from './../Assets/arrow.png'
 import rightarroww from './../Assets/rightarroww.png'
 import trip from '../Assets/trip.png'
+import add from '../Assets/add.png'
 
 function Home() {
   return (
@@ -56,10 +57,28 @@ function Home() {
             <div className={styles.RightArrow}>
               <img className={styles.rightarroww} src={rightarroww}/>
             </div>
-            <div>
-              
-            </div>
           </div>
+            <div className={styles.ll}>
+              <div className={styles.datetime}>
+                <input className={styles.date} data-placeholder="Date of birth" placeholder="enter" type="date"/>
+                <input type="time"/>
+                
+              </div>
+              <div className={styles.datetime2}>
+                <input className={styles.children} type="number"/>
+                <input className={styles.bag} type="number"/>
+              </div>
+            </div>
+            <div className={styles.add}>
+              <div className={styles.sub}>
+
+              <img src={add} />
+              <span>Add Child Seat</span>
+            </div>
+            </div>
+            <div className={styles.quoo}>
+              <button>Quote Now</button>
+            </div>
         </div>
     </div>
   )

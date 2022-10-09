@@ -96,14 +96,79 @@
     display: flex;
     flex-direction: column;
 }
+input[type='date']:in-range::-webkit-datetime-edit-year-field,input[type='date']:in-range::-webkit-datetime-edit-month-field,input[type='date']:in-range::-webkit-datetime-edit-day-field,input[type='date']:in-range::-webkit-datetime-edit-text{  color: transparent;}
 .Mainss
 {
     display: flex;
-    /* background-color: aqua; */
     justify-content: space-between;
-
     padding: 0 10px 0 20px;
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("./../Assets/calendar.png") no-repeat scroll 7px 0px;
+    border-width: thin;
+    padding-left:1200px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("./../Assets/clock.png") no-repeat scroll 0px 0px;
+    border-width: thin;
+    padding-left:1200px;
+}
+.children
+{
+    background: url("./../Assets/person.png") no-repeat scroll 7px 7px;
+padding-left:30px;
+border: 1px solid #DADADA;
+}
+.bag
+{
+    border: 1px solid #DADADA;
+    /* outline: 0; */
+    background: url("./../Assets/bag.png") no-repeat scroll 7px 7px;
+padding-left:30px;
+}
+.ll
+{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 11.2px;
+}
+.datetime
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.datetime input
+{
+    height: 44px;
+    width:158px;
+    border: 1px solid #DADADA;
+
+}
+.datetime2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.datetime2 input
+{
+    height: 44px;
+    width:152px;
+    border: 1px solid #DADADA;
+
+}
+
 
 .inputs
 {
@@ -154,7 +219,40 @@
     border-width: 0 0 0px;
     border-color: #DADADA;
 }
-
+.add{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.sub
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 77%;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: #464749;
+}
+.quoo
+{
+    display: flex;
+    justify-content: center;
+}
+.quoo button
+{
+    color: white;
+    width: 77%;
+    height: 30px;
+    border: 1px solid #3845B8;
+    background-color: #3845B8;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
 @media only screen and (max-width: 1244px) {
 
     .header
@@ -253,6 +351,7 @@
         width: 323px;
         height: 308px;
     }
+ 
 }
 @media only screen and (max-width: 544px) {
 
@@ -447,7 +546,15 @@
     .input{
         left: 20%;
         width: 343px;
-        height: 308px;
+        height: 368px;
+    }
+    .leftArrow {
+        margin-right: 5px;
+        /* background-color: #3845B8; */
+    }
+    .RightArrow
+    {
+        margin-left: 5px;
     }
     .new
     {
@@ -474,6 +581,10 @@
     .main{
         height: 117vh;
     }
+    .sub span
+    {
+        font-size: 12px;
+    }
 }
 
 
@@ -485,6 +596,12 @@
     }
     .main{
         height: 112vh;
+    }
+    .headd
+    {margin: 10px;}
+    .sub span
+    {
+        font-size: 12px;
     }
 
 }
@@ -536,6 +653,18 @@
     {
         height: 107vh;
     }
+    .datetime input
+{
+    height: 44px;
+    width:128px;
+    border: 1px solid #DADADA;
+
+}
+.datetime2 input
+{
+    width: 124px;
+
+}
 }
 @media only screen and (max-width: 370px) {
     .input
@@ -543,6 +672,18 @@
         left: 50px;
         width: 250px;
         top: 490px;
+    }
+    .datetime input
+    {
+        height: 44px;
+        width:108px;
+        border: 1px solid #DADADA;
+    
+    }
+    .datetime2 input
+    {
+        width: 104px;
+    
     }
     .main{
         height: 100vh;

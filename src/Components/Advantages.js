@@ -82,7 +82,7 @@ function Advantages() {
                     <p>Omnis totam molestiae delectus nemo alias nesciunt harum et. Nobis dolorum excepturi quod vel. Sunt est qui ab non dolores repellat rem impedit dolores. Ut ea rerum cum eum. Alias dolores tempore illo accusantium est et voluptatem voluptas.</p>
                   </div>
               </div>
-              <div className={styles.card2}>
+              <div className={styles.card3}>
                 <div className={styles.cardTop}>
                   <img src={image2}/>
                   <div className={styles.topRight}>

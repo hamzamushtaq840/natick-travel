@@ -6,7 +6,7 @@ import background from './../Assets/foot.png'
 
 function Footer() {
   return (
-    <div className={styles.Main}>
+    <div className={styles.Main} >
         <div className={styles.Top}>
             <div className={styles.header}>
                 <h1>Traveling to Logan Airport</h1>
