@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Footer.module.css'
 import image1 from './../Assets/image1.png'
 import insta from './../Assets/insta.png'
+import background from './../Assets/foot.png'
 
 function Footer() {
   return (

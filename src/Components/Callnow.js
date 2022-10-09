@@ -4,8 +4,8 @@ import background from './../Assets/callnow.png'
 import vector from './../Assets/Vector.png'
 function Callnow() {
   return (
+    //background image needs here
     <div className={styles.main} > 
-       
         <div className={styles.heads}>
             <h1 className={styles.h1}>We are Ready to take your call 24 hours, 7 Days !</h1>
             <div className={styles.second}>
